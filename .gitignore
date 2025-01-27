@@ -1,0 +1,54 @@
+# Object files and binaries
+main
+/obj
+/bin
+*.bin
+*.o
+clings
+clings_debug
+.clangd
+compile_commands.json
+.cache
+tags
+
+
+*.o
+*.out
+*.exe
+
+# Build directories
+/build/
+bin/
+obj/
+
+# Debugging files
+*.dSYM/
+*.stackdump
+core
+vgcore.*
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Temporary and system files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+*.bak
+*.old
+
+# Coverage and profiling files
+*.gcda
+*.gcno
+*.gcov
+
+# Generated documentation
+docs/
+
+# Other
+tags
+*.tar.gz
+*.zip
