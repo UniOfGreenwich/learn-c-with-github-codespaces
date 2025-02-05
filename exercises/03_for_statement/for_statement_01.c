@@ -32,7 +32,6 @@
  * }
  */
 
-// ❌ I AM NOT DONE
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,7 +50,7 @@ int main() {
 	int i = rand() % 100 + 11; // DO NOT CHANGE THIS
 
 	// YOUR CODE HERE
-	for (initialization; condition; increment) {
+	for (int i = 0; i < 10; i++) {
 	// END YOUR CODE
 		printf("%d\n", i);
 		verify_count(&count, i); // DO NOT CHANGE THIS

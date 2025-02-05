@@ -4,12 +4,11 @@
  * Take a look at the program below and figure out what primitive datatype each variable should be and assign them accordingly.
 */
 
-// ❌ I AM NOT DONE
 
 int main() {
-	x = 10;
-	y = 1.0;
-	z = 'A';
+  int	x = 10;
+	float y = 1.0;
+ char	z = 'A';
 
 	return 0;
 }

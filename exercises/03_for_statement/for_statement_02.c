@@ -11,7 +11,6 @@
  * from 0 degrees Fahrenheit up to 300 degrees.
 */
 
-// ❌ I AM NOT DONE
 
 #include <stdio.h>
 #include <assert.h>
@@ -28,7 +27,7 @@ void verify_count (int i) {
 
 int main() {
 	// YOUR CODE HERE
-	for (int fahr = 300; fahr >= 0; fahr -= 20) {
+	for (int fahr = 0; fahr <= 300; fahr += 20) {
 	// END YOUR CODE
 		printf("%3d %6.1f\n", fahr, (5.0 / 9.0) * (fahr - 32));
 

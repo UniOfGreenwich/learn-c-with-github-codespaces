@@ -8,7 +8,6 @@
  * Make changes to the program so that precision is not lost.
 */
 
-// ❌ I AM NOT DONE
 
 
 #include <assert.h>
@@ -17,9 +16,9 @@
 #define EPSILON 0.000001
 
 int main() {
-	int x = 100.0;
-	int y = 9.0;
-	int z = x / y;
+	float x = 100.0;
+	float y = 9.0;
+	float z = x / y;
 
 	// DO NOT CHANGE THIS
 	assert(fabs(z - 11.111111) < EPSILON);

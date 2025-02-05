@@ -17,21 +17,20 @@
  * double circumference = 2 * PI * radius;
 */
 
-// ❌ I AM NOT DONE
 
 #include <stdio.h>
 
 // [TODO] DEFINE CONSTANTS LOWER, UPPER, AND STEP WITH APPROPRIATE VALUES.
-#define LOWER // lower limit of the table
-#define UPPER // upper limit of the table
-#define STEP  // step size between consecutive temperatures
+#define LOWER 0// lower limit of the table
+#define UPPER 300// upper limit of the table
+#define STEP  20// step size between consecutive temperatures
 // END OF THE CONSTANTS
 
 int main() {
 	int fahr;
 
 	// [TODO] REPLACE THE MAGIC NUMBERS WITH THE SYMBOLIC CONSTANTS.
-	for (fahr = 0; fahr <= 300; fahr += 20) {
+	for (fahr = LOWER; fahr <= UPPER; fahr += STEP) {
 	// END OF THE REPLACEMENT
 		printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 	}

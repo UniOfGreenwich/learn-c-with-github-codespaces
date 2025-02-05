@@ -6,7 +6,6 @@
  * The program below is not accurate enough, how can we fix that?
 */
 
-// ❌ I AM NOT DONE
 
 
 #include <assert.h>
@@ -16,7 +15,8 @@
 
 int main() {
 	int fahrenheit = 100;
-	int celcius = (5 / 9) * (fahrenheit - 32);
+	float celcius = (5.0f / 9.0f) * (fahrenheit - 32.0f);
+
 
 	// DO NOT CHANGE THIS
 	assert(fabs(celcius - 37.777779) < EPSILON);
